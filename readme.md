@@ -70,21 +70,20 @@ No dependencies required! Just open `index.html` in your favorite browser, and y
 
 ### 📌 Grid View
 
-![Grid View](./assets/grid_view.png)
+![Grid View](./assets/grid-view.png)
 
 ### 📌 List View
 
-![List View](./assets/List_view.png)  
-(Replace these placeholders with actual screenshots.)
+![List View](./assets/list-view.png)
 
 ---
 
 ## 💡 Future Enhancements
 
-- [ ] Add book favorites feature 📌
-- [ ] Implement dark mode 🌙
-- [ ] Allow users to add custom books ✍️
-- [ ] Offline book storage with localStorage 💾
+- Add book favorites feature 📌
+- Implement dark mode 🌙
+- Allow users to add custom books ✍️
+- Offline book storage with localStorage 💾
 
 ---
 
