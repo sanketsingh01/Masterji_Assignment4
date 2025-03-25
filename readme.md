@@ -29,13 +29,6 @@
 
 ---
 
-## 🎥 Preview
-
-![Library Preview](https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif)  
-(Replace the link with an actual preview GIF of your project.)
-
----
-
 ## 📂 Project Structure
 
 ```
@@ -54,13 +47,13 @@
 1️⃣ Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/book-library.git
+git clone https://github.com/sanketsingh01/Masterji_Assignment4.git
 ```
 
 2️⃣ Open the project folder:
 
 ```bash
-cd book-library
+cd Masterji_Assignment4
 ```
 
 3️⃣ Open `index.html` in a browser.
