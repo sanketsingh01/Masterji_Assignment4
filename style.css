@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "sans-serif";
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  text-align: center;
+}
+
+#heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 3.5rem;
+  margin: 10px 0;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px 0;
+  gap: 10px;
+  margin: 10px 0;
+  width: 70%;
+  height: 50px;
+}
+
+#searchBar {
+  width: 67%;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 5px 7px;
+  border-radius: 5px;
+}
+
+.btns {
+  display: flex;
+  gap: 7px;
+}
+
+.controls button {
+  height: 100%;
+  font-size: 1rem;
+  padding: 5px 7px;
+  border-radius: 5px;
+  background-color: #0f172a;
+  color: #f8fafc;
+}
+
+.controls button:hover {
+  background-color: #535967;
+  color: #f8fafc;
+}
+
+#BooksContainer {
+  width: 70%;
+  /* background-color: #0f172a; */
+  height: auto;
+  max-width: 1200px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.book {
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.book:hover {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  transform: translateY(-5px);
+}
+
+/* list View */
+.list-view {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Grid view */
+.grid-view {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 10px;
+}
+
+.grid-view .book {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.grid-view .book img {
+  width: 90%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.book div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+  overflow: hidden;
+}
+
+.grid-view .book div {
+  align-items: center;
+}
+
+.book div h3,
+.book div p {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.book div h3 {
+  width: 90%;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.book div p {
+  width: 90%;
+  font-size: 1rem;
+  color: #555;
+}
+
+.book div p span {
+  font-weight: 600;
+}
+
+.book div a {
+  text-decoration: none;
+  padding: 7px 10px;
+  background-color: #0f172a;
+  color: #fff;
+  border-radius: 7px;
+}
+
+.book div a:hover {
+  background-color: #166fce;
+}
+
+.pageShift {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  gap: 20px;
+  margin: 5px 0 15px 0;
+}
+
+.pageShift button {
+  padding: 5px 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  background-color: #0f172a;
+  color: #fff;
+  width: 100px;
+}
+
+.pageShift button:hover {
+  background-color: #535967;
+  color: #f8fafc;
+}

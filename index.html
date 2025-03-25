@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Libraray</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="heading">
+      <img
+        src="./assets/Logo.svg"
+        alt="Logo Image"
+        id="logo"
+        height="60px"
+        width="60px"
+      />
+      Book Libraray
+    </h1>
+
+    <div class="controls">
+      <input type="text" id="searchBar" placeholder="Search book ny name..." />
+
+      <div class="btns">
+        <button id="ToggleView">Grid View</button>
+        <button id="SortChar">Sort A-Z</button>
+        <button id="SortDate">Sort by Date</button>
+      </div>
+    </div>
+
+    <div id="BooksContainer" class="list-view"></div>
+
+    <div class="pageShift">
+      <button id="Previous">Previous</button>
+      <span id="pageNum">Page 1 of 21</span>
+      <button id="Next">Next</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
